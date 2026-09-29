@@ -49,3 +49,5 @@ resilience4j:
         minimum-number-of-calls: 5
         wait-duration-in-open-state: 10s
         permitted-number-of-calls-in-half-open-state: 3
+        ignore-exceptions:
+          - org.example.orderservice.exceptions.ProductNotFoundException

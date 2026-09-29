@@ -1,6 +1,8 @@
 package org.example.notifyservice.consumer;
 
 import org.example.notifyservice.service.EmailService;
+import org.springframework.kafka.annotation.KafkaListener;
+
 
 public class OrderCreatedConsumer {
 
